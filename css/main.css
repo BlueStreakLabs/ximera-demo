@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
-
+@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
 /*************************
 *******Typography******
 **************************/
@@ -98,26 +98,28 @@ h2 {
     left: 45px;
 }
 .navbar-right {
-    background-color: #FFFFFF;
     padding: 0 95px 0 0;
-    opacity: .9
 }
+.navbar-right li a:focus,
 .navbar-right li a {
-    padding: 19px 35px;
+    padding: 19px 23px;
     font-size: 17px;
-    color: #16728f;
+    color: #040000;
     text-transform: uppercase;
     font-family: 'Yanone Kaffeesatz', 'sans-serif';
-    font-weight: 300;
+    font-weight: 400;
+    text-shadow: 0px 0px 4px white;
+    letter-spacing: 2px;
 }
 .navbar-right li a:hover,
-.navbar-right li a:focus,
 .navbar-right .active a {
-    background-color: #fff;
     color: #f70c0c
 }
+.nav>li>a:hover, .nav>li>a:focus{
+    background-color: inherit;
+}
 .fixed-menu {
-    background-color: #1B7B98;
+    background-color: white;
     position: fixed;
     top: 0;
 }
@@ -128,6 +130,11 @@ h2 {
     font-size: 18px;
     padding: 20px 25px;
     text-shadow: inherit;
+    color: #040000;
+}
+.fixed-menu .navbar-right .active a {
+    background-color: #fff;
+    color: #f70c0c
 }
 .fixed-menu .navbar-brand {
     height: 60px;
@@ -166,26 +173,34 @@ h2 {
     overflow: hidden;
 }
 #main-slider img {
-    width: 100%
+    width: 100%;
+    -webkit-filter: blur(2px) grayscale(0.6);
+    -moz-filter: blur(2px) grayscale(0.6);
+    -ms-filter: blur(2px) grayscale(0.6);
+    filter: blur(2px) grayscale(0.6);
 }
 #main-slider .carousel-caption {
-    background: none repeat scroll 0 0 #000000;
     opacity: 0.8;
     text-transform: uppercase;
     color: #fff;
+    top: 10%;
 }
 #main-slider .carousel-caption h2 {
     font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+    text-shadow: 0 1px 2px white;
 }
 #main-slider .carousel-caption h4 {
     font-size: 24px;
 }
 #main-slider .carousel-caption a {
     font-size: 22px;
-    color: #2da1c5
+    color: white;
+    text-shadow: 1px 1px 5px black;
 }
 #main-slider .carousel-caption a:hover {
-    color: #2588a6
+    color: white;
 }
 #main-slider .carousel-caption a:hover i {
     margin-left: 35px
@@ -211,7 +226,7 @@ h2 {
 **************************/
 .event-item{
     display: inline-block;
-    width: 300px;
+    width: 200px;
 }
 
 .event-item img{
@@ -243,11 +258,38 @@ h2 {
 /*************************
 *******schedule CSS******
 **************************/
+#events {
+    padding-top: 40px;
+}
 
+#eventsSubMenu{
+    top: 55px;
+    position: fixed;
+    padding-top: 10px;
+    display: none;
+}
+
+#eventsSubMenu:hover,
+.eventNavLink:hover + #eventsSubMenu {
+    display: block;
+}
+.eventSubMenuItem{
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    color: black;
+}
+.eventSubMenuItem:hover{
+    background-color: gray;
+    color: white;
+}
 #events .arrow{
     color: black;
 }
-
+#events .row{
+    width: 76%;
+    margin-left: 12%;
+}
 #events .expand{
     background-color: rgba(46, 29, 80, 0.46);
     position: relative;
@@ -564,4 +606,17 @@ h2 {
 }
 #footer a:hover {
     color: #1B7B98
+}
+
+#main-slider img.ximera-logo {
+        width: 300px;
+    margin: 0 auto;
+     -webkit-filter: none;
+    -moz-filter: none;
+    -ms-filter: none;
+    filter: none;
+}
+
+.registrationInfo {
+    
 }

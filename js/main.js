@@ -16,31 +16,11 @@ jQuery(function($) {
                 }
             });
         } else {
-
             $('.main-nav').addClass('fixed-menu animated slideInDown');
-
         }
     }
 
     menuToggle();
-
-
-    // Carousel Auto Slide Off
-    //	$('#event-carousel, #twitter-feed, #sponsor-carousel ').carousel({
-    //		interval: false
-    //	});
-
-
-    // Contact form validation
-    var form = $('.contact-form');
-    form.submit(function() {
-        'use strict',
-        $this = $(this);
-        $.post($(this).attr('action'), function(data) {
-            $this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
-        }, 'json');
-        return false;
-    });
 
     $(window).resize(function() {
         menuToggle();
