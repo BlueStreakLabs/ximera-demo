@@ -205,13 +205,14 @@ sub{
   text-shadow: none;
   font-size: 28px;
   color: maroon;
+  font-weight: bold;
   font-family: 'Poiret One', cursive;
 }
 #main-slider .carousel-caption a {
   font-size: 30px;
   font-family: bf;
-  color: rgba(255, 255, 255, 0.9);
-  text-shadow: 1px 1px 15px black;
+  color: firebrick;
+  text-shadow: 1px 1px 15px #FFFFFF;
 }
 #main-slider .carousel-caption a:hover i {
     margin-left: 35px
@@ -231,6 +232,13 @@ sub{
 #main-slider .carousel-indicators li.active {
     background-color: #fff;
     border: 1px solid #fff;
+}
+.dateInfo{
+  font-size: 25px;
+  font-family: bf;
+  color: #755025;
+  text-shadow: 0 1px 2px white;
+  margin-top: 15px;
 }
 /*************************
 *******Explore CSS******
