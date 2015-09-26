@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200,700);
-@import url(https://fonts.googleapis.com/css?family=Abril+Fatface);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
 /*************************
 *******Typography******
 **************************/
@@ -205,7 +205,7 @@ sub{
   text-shadow: none;
   font-size: 28px;
   color: maroon;
-  font-family: fantasy;
+  font-family: 'Poiret One', cursive;
 }
 #main-slider .carousel-caption a {
   font-size: 30px;
@@ -631,7 +631,7 @@ sub{
 #main-slider img.ximera-logo {
     width: 250px;
     margin: 0 auto;
-    margin-top: -20px;
+    margin-top: -10px;
 }
 
 .registrationInfo {
