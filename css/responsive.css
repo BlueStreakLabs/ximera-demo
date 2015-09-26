@@ -264,6 +264,12 @@
 /* XS Portrait */
 
 @media (max-width: 479px) {
+    sup{
+        font-size: 10px;
+    }
+    sub{
+      bottom:0px;
+    }
     .main-nav .container {
         display: none;
     }
@@ -299,7 +305,8 @@
     }
     #main-slider .carousel-caption a {
         font-size: 12px;
-        color: white;
+        color: rgba(226, 152, 37, 0.9);
+        text-shadow: none;
     }
     .carousel-indicators {
         bottom: 0;
