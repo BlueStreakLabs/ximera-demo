@@ -5,6 +5,17 @@
 *******Typography******
 **************************/
 
+@font-face {
+    font-family: bf;
+    src: url(../fonts/BenjaminFranklin.ttf);
+}
+
+@font-face {
+    font-family: rq;
+    src: url(../fonts/Requiem.ttf);
+    font-weight: bold;
+}
+
 body {
     font-family: 'Dosis', sans-serif;
     font-size: 17px;
@@ -35,7 +46,6 @@ h5,
 h6 {
     font-family: 'Raleway', 'sans-serif';
     font-weight: 300;
-    text-transform: uppercase;
 }
 h2 {
     font-size: 36px
@@ -50,6 +60,12 @@ h2 {
 .navbar-toggle:focus {
     border: 1px solid #fff;
     outline: none;
+}
+sup{
+    font-size: 19px;
+}
+sub{
+  bottom: 6px;
 }
 /*************************
 *******Header CSS******
@@ -102,14 +118,14 @@ h2 {
 }
 .navbar-right li a:focus,
 .navbar-right li a {
-    padding: 19px 23px;
-    font-size: 17px;
-    color: #040000;
-    text-transform: uppercase;
-    font-family: 'Yanone Kaffeesatz', 'sans-serif';
-    font-weight: 400;
-    text-shadow: 0px 0px 4px white;
-    letter-spacing: 2px;
+  padding: 15px 9px;
+  font-size: 15px;
+  color: #040126;
+  text-transform: uppercase;
+  font-family: rq;
+  font-weight: 400;
+  text-shadow: 1px 2px 14px white;
+  letter-spacing: 2px;
 }
 .navbar-right li a:hover,
 .navbar-right .active a {
@@ -181,26 +197,29 @@ h2 {
 }
 #main-slider .carousel-caption {
     opacity: 0.8;
-    text-transform: uppercase;
     color: #fff;
     top: 10%;
 }
 #main-slider .carousel-caption h2 {
-    font-size: 30px;
-    font-family: 'Abril Fatface', cursive;
-    color: black;
+    font-size: 34px;
+    font-family: bf;
+    color: firebrick;
     text-shadow: 0 1px 2px white;
 }
 #main-slider .carousel-caption h4 {
-    font-size: 24px;
+  font-size: 28px;
+  font-family: rq;
+  color: maroon;
 }
 #main-slider .carousel-caption a {
-    font-size: 22px;
-    color: white;
-    text-shadow: 1px 1px 5px black;
+  font-size: 30px;
+  font-family: bf;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 15px black;
 }
 #main-slider .carousel-caption a:hover {
-    color: white;
+  color: rgba(226, 152, 37, 0.9);
+text-shadow: 1px 1px 15px white;
 }
 #main-slider .carousel-caption a:hover i {
     margin-left: 35px
@@ -548,7 +567,7 @@ h2 {
     margin-bottom: 25px
 }
 #contact address {
-    font-size: 18px;
+    font-size: 21px;
     color: white;
     text-shadow: 1px 1px #373737;
 }
@@ -618,5 +637,5 @@ h2 {
 }
 
 .registrationInfo {
-    
+
 }
