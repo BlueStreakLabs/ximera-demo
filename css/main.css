@@ -190,15 +190,10 @@ sub{
 }
 #main-slider img {
     width: 100%;
-    -webkit-filter: blur(5px) grayscale(0.6);
-    -moz-filter: blur(5px) grayscale(0.6);
-    -ms-filter: blur(5px) grayscale(0.6);
-    filter: blur(5px) grayscale(0.6);
 }
 #main-slider .carousel-caption {
-    opacity: 0.8;
     color: #fff;
-    top: 10%;
+    top: 11%;
 }
 #main-slider .carousel-caption h2 {
     font-size: 34px;
@@ -207,19 +202,16 @@ sub{
     text-shadow: 0 1px 2px white;
 }
 #main-slider .carousel-caption h4 {
+  text-shadow: none;
   font-size: 28px;
-  font-family: rq;
   color: maroon;
+  font-family: fantasy;
 }
 #main-slider .carousel-caption a {
   font-size: 30px;
   font-family: bf;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 1px 1px 15px black;
-}
-#main-slider .carousel-caption a:hover {
-  color: rgba(226, 152, 37, 0.9);
-text-shadow: 1px 1px 15px white;
 }
 #main-slider .carousel-caption a:hover i {
     margin-left: 35px
@@ -282,10 +274,11 @@ text-shadow: 1px 1px 15px white;
 }
 
 #eventsSubMenu{
-    top: 55px;
+    top: 35px;
     position: fixed;
     padding-top: 10px;
     display: none;
+    z-index: 100;
 }
 
 #eventsSubMenu:hover,
@@ -294,13 +287,21 @@ text-shadow: 1px 1px 15px white;
 }
 .eventSubMenuItem{
     padding: 10px;
-    width: 150px;
-    background-color: white;
-    color: black;
+    width: 180px;
+    background-color: rgb(254, 251, 193);
+    color: #B22222;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.38);
 }
 .eventSubMenuItem:hover{
-    background-color: gray;
+    background-color: #B10303;
     color: white;
+}
+.eventSubMenuItem:last-child{
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.eventSubMenuItem:first-child{
+  border-top-right-radius: 10px;
 }
 #events .arrow{
     color: black;
@@ -628,14 +629,11 @@ text-shadow: 1px 1px 15px white;
 }
 
 #main-slider img.ximera-logo {
-        width: 300px;
+    width: 250px;
     margin: 0 auto;
-     -webkit-filter: none;
-    -moz-filter: none;
-    -ms-filter: none;
-    filter: none;
+    margin-top: -20px;
 }
 
 .registrationInfo {
-
+  margin-top: -20px;
 }
