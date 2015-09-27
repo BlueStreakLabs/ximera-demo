@@ -62,10 +62,7 @@ h2 {
     outline: none;
 }
 sup{
-    font-size: 19px;
-}
-sub{
-  bottom: 6px;
+    font-size: 12px;
 }
 /*************************
 *******Header CSS******
@@ -193,23 +190,24 @@ sub{
 }
 #main-slider .carousel-caption {
     color: #fff;
-    top: 11%;
+    top: 6%;
 }
 #main-slider .carousel-caption h2 {
-    font-size: 34px;
+    font-size: 26px;
     font-family: bf;
+    padding-top: 14px;
     color: firebrick;
     text-shadow: 0 1px 2px white;
 }
 #main-slider .carousel-caption h4 {
   text-shadow: none;
-  font-size: 28px;
+  font-size: 19px;
   color: maroon;
   font-weight: bold;
   font-family: 'Poiret One', cursive;
 }
 #main-slider .carousel-caption a {
-  font-size: 30px;
+  font-size: 27px;
   font-family: bf;
   color: firebrick;
   text-shadow: 1px 1px 15px #FFFFFF;
@@ -234,11 +232,11 @@ sub{
     border: 1px solid #fff;
 }
 .dateInfo{
-  font-size: 25px;
+  font-size: 18px;
   font-family: bf;
   color: #755025;
   text-shadow: 0 1px 2px white;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 /*************************
 *******Explore CSS******
@@ -637,11 +635,7 @@ sub{
 }
 
 #main-slider img.ximera-logo {
-    width: 250px;
+    width: 370px;
     margin: 0 auto;
-    margin-top: -10px;
-}
-
-.registrationInfo {
-  margin-top: -20px;
+    margin-top: -6px;
 }
