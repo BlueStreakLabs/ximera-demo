@@ -481,8 +481,9 @@ sup{
  #sponsers .arrow{
      color: black;
  }
-
-
+#sponsor .container{
+  padding-top: 47px;
+}
 #sponsor {
     background-color: #FFF;
     background-position: 50% 0;
@@ -550,7 +551,7 @@ sup{
 **************************/
 
 .contact-section {
-    background-color: #2C81B3;
+    background-color: #E9A95F;
     background-image: url("../images/noisy-texture.png");
     background-position: center bottom;
     background-repeat: repeat;
