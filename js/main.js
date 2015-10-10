@@ -90,7 +90,7 @@ var initEvents = function() {
         }, {
             title: "Emporio",
             subTitle: "Marketing",
-            eventImageUrl: "images/events/Roman.png",
+            eventImageUrl: "images/events/Phoenician.png",
             eventInfoAltText: "Emporio (Marketing)",
             eventInfoImgUrl: "images/events/infoimages/Emporio_info.jpg",
             registerLink: "https://bluestreaklabs.typeform.com/to/KQUJof"
